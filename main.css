@@ -2,11 +2,11 @@
 	color: white;
 	padding-top: 250px;
 	padding-bottom: 250px;
-	padding-left:50px;
+	padding-left:33px;
 	position:relative;
 }
 #maggie {
-	font-size: 15vw;
+	font-size: 14vw;
 	font-weight: 50;
 	font-family: "Times New Roman";
 	white-space: pre-line;
@@ -14,19 +14,19 @@
 	padding-left:0.1vw;
 }
 #pan{
-	font-size: 15vw;
+	font-size: 14vw;
 	font-weight: 50;
 	font-family: "Times New Roman";
 	white-space: pre-line;
 	text-align: right;
-	padding-right: 25vw;
+	padding-right: 32vw;
 }
 #navbar{
 	position: absolute;
 	top:0px;
 	bottom:0px;
 	right:0px;
-	width:20vw;
+	width:25vw;
 	background-color: white;
 }
 #navbar p{
@@ -54,10 +54,13 @@
 #pic_of_me {
 	height: auto;
 	width: 100%;
+	padding-left:10px;
 	padding-right: 100px;
 }
 #descriptors{
 	white-space: pre-line;
+	color: white;
+	font-size: 28px;
 }
 #resumepage{
 	padding-top: 100px;
@@ -107,7 +110,7 @@
 
 
 .navword{
-	font-size: 25px;
+	font-size: 30px;
 	font-family: monospace;
 	text-decoration: none;
 }
@@ -186,13 +189,15 @@
 body {
 	background-color: powderblue;
 }
-h1{
+h1 {
 	margin:0;
 	padding:0;
 	text-align:center;
 	font-family:monospace;
 }
-
+p {
+	font-size: 15px;
+}
 
 @keyframes slideleft{
 	from{

@@ -1,0 +1,226 @@
+#home {
+	color: white;
+	padding-top: 250px;
+	padding-bottom: 250px;
+	padding-left:50px;
+	position:relative;
+}
+#maggie {
+	font-size: 15vw;
+	font-weight: 50;
+	font-family: "Times New Roman";
+	white-space: pre-line;
+	text-align:left;
+	padding-left:0.1vw;
+}
+#pan{
+	font-size: 15vw;
+	font-weight: 50;
+	font-family: "Times New Roman";
+	white-space: pre-line;
+	text-align: right;
+	padding-right: 25vw;
+}
+#navbar{
+	position: absolute;
+	top:0px;
+	bottom:0px;
+	right:0px;
+	width:20vw;
+	background-color: white;
+}
+#navbar p{
+	padding:20px;
+	position:relative;
+	top:50%;
+	transform: translateY(-60%);
+	/*display:table-cell;
+	vertical-align: middle;
+	text-align:center*/
+}
+#aboutme{
+	clear: both;
+	padding-top: 100px;
+	padding-bottom: 222px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-image: linear-gradient(pink 75%,powderblue);
+}
+#abouttable{
+	padding-left:40px;
+	padding-right: 40px;
+	vertical-align: middle;
+}
+#pic_of_me {
+	height: auto;
+	width: 100%;
+	padding-right: 100px;
+}
+#descriptors{
+	white-space: pre-line;
+}
+#resumepage{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+#resume{
+	height:auto;
+}
+#resume:hover{
+	filter: opacity(75%);
+}
+/*
+#photos{
+	background-image: linear-gradient(powderblue, white);
+	position:relative;
+}
+#hackmit{
+	height:auto;
+	width:20vw;
+}
+#capone{
+	height:auto;
+	width:30vw;
+}*/
+#blog{
+	padding: 100px;
+}
+#bloglink{
+	color:white;
+	text-decoration: none;
+}
+#bloglink:visited{
+	color:white;
+}
+#bloglink:hover{
+	color:pink;
+}
+#bloglink:active{
+	color:white;
+}
+
+
+#logos{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.navword{
+	font-size: 25px;
+	font-family: monospace;
+	text-decoration: none;
+}
+.navword:link{
+	color:powderblue;
+}
+.navword:visited{
+	color:powderblue;
+}
+.navword:hover{
+	color:pink;
+}
+.navword:active{
+	color:powderblue;
+}
+
+.couriernew{
+	font-family: "Courier New";
+	font-weight: 100;
+}
+.monospace{
+	font-family: monospace;
+}
+.adjective{
+	font-size: 18px;
+	color: white;
+}
+.leftfloat{
+	position:relative;
+	float: left;
+	margin: 0 1.5%;
+	width:50%;
+}
+.center{
+	text-align: center;
+}
+.centerimg{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:50%;
+	vertical-align: middle;
+}
+.logo{
+	height:25px;
+	width:auto;
+	vertical-align: middle;
+	padding:20px;
+}
+.logo:hover{
+	filter:opacity(60%);
+}
+.container{
+	position: relative;
+	left:0;
+}
+.addpadding{
+	padding-bottom: 50px;
+}
+
+.slideleft{
+	animation-duration: 3s;
+	animation-name: slideleft;
+}
+.slidedown{
+	animation-duration: 3s;
+	animation-name: slidedown;
+}
+.appearwb{
+	animation-duration: 3.5s;
+	animation-name:appearwb;
+}
+
+
+
+body {
+	background-color: powderblue;
+}
+h1{
+	margin:0;
+	padding:0;
+	text-align:center;
+	font-family:monospace;
+}
+
+
+@keyframes slideleft{
+	from{
+		margin-left:80%;
+		width:300%;
+	}
+	to{
+		margin-left: 0%;
+		width: 100%;
+	}
+}
+@keyframes slidedown{
+	from{
+		transform:translateY(-400%);
+	}
+	
+	to{
+		transform:translateY(0%);
+	}
+}
+@keyframes appearwb{
+	from{
+		color:white;
+	}
+	to{
+		color:powderblue;
+	}
+}
+
+
+/*https://24ways.org/2008/absolute-columns/*/

@@ -1,0 +1,3 @@
+# magzipan.github.io
+
+Hello! My name is Maggie, and I'm a sophomore at Duke University. I created this personal website from scratch as a side project during fall break this year. It was my first time pursuing my own side project and coding with HTML and CSS. My goals for this project were: to learn HTML and CSS, challenge myself, understand more about coding, and be creative and have fun! This website is very basic right now, but I plan to learn Javascript to add more  features. I had so much fun creating this website and learned a lot; I look forward to experimenting with more interactive features and designs later!
